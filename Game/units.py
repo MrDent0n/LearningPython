@@ -7,13 +7,13 @@ import re
 
 class unit:
     """
-        @brief This is the base unit class.
-        @param health the health of the unit
-        @param name the name of the unit
-        This is the base unit class.
-        It contains health and the fuctions to manipulate it.
-        @note the parameters are passed as keyword arguments
-        """
+    @brief This is the base unit class.
+    @param health the health of the unit
+    @param name the name of the unit
+    This is the base unit class.
+    It contains health and the functions to manipulate it.
+    @note the parameters are passed as keyword arguments
+    """
     def __init__(self,**kwargs):
         """
         @brief The unit constructor
@@ -70,19 +70,19 @@ class unit:
 
     def get_abilities(self):
         """
-        @brief Lists avalibale abilities
+        @brief Lists available abilities
         @returns (list) abilities
         """
         return self.abilities.keys()
 
-    def use_abillity_self(self,name):
+    def use_ability_self(self,name):
         """
         @brief Use ability on self
         @param name name of the ability
         """
         self.abilities[name].use(self)
 
-    def use_abillity_target(self,name,target):
+    def use_ability_target(self,name,target):
         """
         @brief  Use ability on target
         @param name name of the ability
@@ -122,7 +122,7 @@ class enemy(unit):
         unit.__init__(self,**kwargs)
 
 if __name__ == "__main__":
-    title="The Bringer OF Darkness"
+    title="The Bringer OF Death and Horror"
     bob = enemy(health=100,name="Bob")
     bob.damage(10)
     if(bob.show_health() == 90):
@@ -146,4 +146,4 @@ if __name__ == "__main__":
     if re.search(title,bob.__str__()) is not None:
         print("Pass! {} has title".format(bob))
     else:
-        print("Fail! {} has no title".format())
+        print("Fail! {} has no title".format(bob))
