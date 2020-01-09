@@ -24,7 +24,3 @@ Turn Based Combat Simulator
 
 - Start Menu
 - Save Game
-
-- Epic Loot Boxes
-- Season Pass
-- Xbox Live
