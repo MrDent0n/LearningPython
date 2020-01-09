@@ -9,9 +9,10 @@ Turn Based Combat Simulator
         - Knight
         - Mage
         - Healer
-    - Abillities
-        - Weapon Abillites
-        - Unit Abillities
+    - Abilities
+        - Weapon Abilities
+        - Mage Abilities
+        - Unit Abilities
     - Weapons
     - Experience
     - Level
@@ -21,6 +22,7 @@ Turn Based Combat Simulator
     - Move
     - Attack
     - Abillity
+    - Flee
 
 - Start Menu
 - Save Game
