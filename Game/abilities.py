@@ -1,6 +1,6 @@
 """
 @author MrDent0n
-@brief Conatins all the abilities
+@brief Contains all the abilities
 """
 class magic():
     def __init__(self,**kwargs):

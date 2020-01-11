@@ -17,6 +17,11 @@ Turn Based Combat Simulator
     - Experience
     - Level
 - Enemies
+    - Classes
+        - Archer
+        - Bandit
+        - Mage
+        - Healer
 - Attack Order
 - Selection menu
     - Move

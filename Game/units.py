@@ -3,7 +3,9 @@
 @brief This is the unit module
 This module contains all the units in the game.
 """
+
 import re
+
 
 class unit:
     """
@@ -118,6 +120,13 @@ class hero(unit):
         unit.__init__(self,**kwargs)
 
 class enemy(unit):
+    def __init__(self,**kwargs):
+        unit.__init__(self,**kwargs)
+
+class monk(unit):
+    """
+    @brief Unit that is neutral. can heal any unit to full health
+    """
     def __init__(self,**kwargs):
         unit.__init__(self,**kwargs)
 
