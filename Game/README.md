@@ -26,7 +26,7 @@ Turn Based Combat Simulator
 - Selection menu
     - Move
     - Attack
-    - Abillity
+    - Ability
     - Flee
 
 - Start Menu
