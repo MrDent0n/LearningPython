@@ -123,12 +123,6 @@ class enemy(unit):
     def __init__(self,**kwargs):
         unit.__init__(self,**kwargs)
 
-class monk(unit):
-    """
-    @brief Unit that is neutral. can heal any unit to full health
-    """
-    def __init__(self,**kwargs):
-        unit.__init__(self,**kwargs)
 
 if __name__ == "__main__":
     title="The Bringer OF Death and Horror"
