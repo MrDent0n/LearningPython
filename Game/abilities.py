@@ -6,16 +6,20 @@ class magic():
     def __init__(self,**kwargs):
         self.cost = kwargs["cost"]
         self.type = "mana"
+        self.range = "range"
+        self.
 
 class ranged():
     def __init__(self,**kwargs):
         self.cost = kwargs["cost"]
         self.type = "stamina"
+        self.range = "range"
 
 class melee():
     def __init__(self,**kwargs):
         self.cost = kwargs["cost"]
         self.type = "stamina"
+        self.range = None
 
 class ability:
     """
