@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 @author MrDent0n
-@brief small test script to
+@brief small test script to create a loop
 """
 
 while True:
